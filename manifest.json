@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "items": [
     {
       "id": "decor_fence_x1_wow",
@@ -44,6 +44,25 @@
       "tag_fg": "#3B82C4",
       "json": "previews/garden_topper.json",
       "cover": ""
+    }
+  ],
+  "collections": [
+    {
+      "id": "starter_wow",
+      "title": "Стартовые превью",
+      "items": [
+        "figure_x1_wow",
+        "decor_fence_x1_wow",
+        "garden_topper_x1_wow"
+      ]
+    },
+    {
+      "id": "figures",
+      "title": "Фигурки",
+      "items": [
+        "figure_x1_wow",
+        "figure_x1_wow_no_cover"
+      ]
     }
   ]
 }

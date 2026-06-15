@@ -28,3 +28,21 @@ https://username.github.io/wowlab-preview-cloud/manifest.json
 ```
 
 The app downloads `manifest.json` first, caches covers in `lib/cache/covers`, and downloads full preview JSON files only when the user clicks `Download`.
+
+Collections live in `manifest.json`:
+
+```json
+{
+  "id": "starter_wow",
+  "title": "Стартовые превью",
+  "items": ["figure_x1_wow", "decor_fence_x1_wow"]
+}
+```
+
+One preview can be used in multiple collections because collections only store preview ids.
+
+Owner uploader:
+
+```powershell
+& 'C:\Users\Kutsushita\AppData\Local\Python\bin\python.exe' tools\preview_cloud_uploader.py
+```
