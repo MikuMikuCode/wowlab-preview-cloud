@@ -1,0 +1,23 @@
+{  "id": "garden_topper_x1_wow", "name": "Садовый топпер", "size": "x1", "shop": "WoW",
+  "tag_bg": "#CFE9FF", "tag_fg": "#3B82C4",
+  "library_cover": "",
+  "params": {
+    "fields": [
+      {"key":"article","type":"text","label":"Артикул","width":210,"height":24,"editable":true},
+      {"key":"dimensions","type":"dimensions","count":1,"width":170,"height":22,"input_width":40,"editable":true}
+    ],
+    "subtype": {"mode":"none"},
+    "card_layout": {
+      "mode":"vertical",  "card_width":165,  "card_height":250,  "preview_size":140,  "field_height":24,
+      "rows":[  ["title"], ["fandom"], ["name"], ["color","dimensions"], ["article","delete"]
+      ] }
+  },
+	"actions": [
+	  {"command":"figure_button"},
+	  {"command":"insert_preview","macro":"Insert1"},
+	  {"command":"delete_old_wow_layouts"},
+	  {"command":"insert_info"},
+	  {"command":"pause"},
+	  {"command":"export","macro":"ExportFromPacket"}
+	]
+}

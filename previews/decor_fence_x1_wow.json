@@ -1,0 +1,33 @@
+{
+  "id": "decor_fence_x1_wow",
+  "name": "Декор на забор",
+  "size": "x1",
+  "shop": "WoW",
+  "library_title": "Декор на забор x1",
+  "library_cover": "lib_prew2.png",
+  "tag_bg": "#CFE9FF",
+  "tag_fg": "#3B82C4",
+  "params": {
+    "fields": [
+      {"key": "color", "type": "color_group", "count": 1, "width": 89, "height": 22},
+      {"key": "dimensions", "type": "dimensions", "width": 150, "height": 22},
+      {"key": "article", "type": "text", "label": "Артикул", "width": 200, "height": 24, "editable": true}
+    ],
+    "card_layout": {
+      "mode": "vertical",
+      "card_width": 165,
+      "card_height": 280,
+      "preview_size": 140,
+      "field_height": 24,
+      "rows": [["title"], ["preview"], ["color"], ["article", "delete"]]
+    }
+  },
+  "actions": [
+    {"command": "figure_button"},
+    {"command": "insert_preview", "macro": "Insert1"},
+    {"command": "insert_info"},
+    {"command": "delete_old_wow_layouts"},
+    {"command": "pause"},
+    {"command": "export", "macro": "ExportFromPacket"}
+  ]
+}

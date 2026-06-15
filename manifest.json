@@ -1,0 +1,49 @@
+{
+  "version": 3,
+  "items": [
+    {
+      "id": "decor_fence_x1_wow",
+      "name": "Декор на забор",
+      "size": "x1",
+      "shop": "WoW",
+      "library_title": "Декор на забор x1",
+      "tag_bg": "#CFE9FF",
+      "tag_fg": "#3B82C4",
+      "json": "previews/decor_fence_x1_wow.json",
+      "cover": "covers/decor_fence_x1_wow.png"
+    },
+    {
+      "id": "figure_x1_wow",
+      "name": "Фигурка",
+      "size": "x1",
+      "shop": "WoW",
+      "library_title": "Фигурка x1",
+      "tag_bg": "#CFE9FF",
+      "tag_fg": "#3B82C4",
+      "json": "previews/figure_x1_wow.json",
+      "cover": "covers/figure_x1_wow.png"
+    },
+    {
+      "id": "figure_x1_wow_no_cover",
+      "name": "Фигурка",
+      "size": "x1",
+      "shop": "WoW",
+      "library_title": "Фигурка x1 без обложки",
+      "tag_bg": "#CFE9FF",
+      "tag_fg": "#3B82C4",
+      "json": "previews/figure_x1_wow_no_cover.json",
+      "cover": ""
+    },
+    {
+      "id": "garden_topper_x1_wow",
+      "name": "Садовый топпер",
+      "size": "x1",
+      "shop": "WoW",
+      "library_title": "Садовый топпер x1",
+      "tag_bg": "#CFE9FF",
+      "tag_fg": "#3B82C4",
+      "json": "previews/garden_topper.json",
+      "cover": ""
+    }
+  ]
+}
