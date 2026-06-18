@@ -38,7 +38,7 @@
     "card_layout": {
       "mode": "vertical",
       "card_width": 165,
-      "card_height": 280,
+      "card_height": 430,
       "preview_size": 140,
       "field_height": 24,
       "rows": [
@@ -72,8 +72,14 @@
       "command": "figure_button"
     },
     {
+      "command": "insert_info"
+    },
+    {
       "command": "insert_preview",
       "macro": "Insert1"
+    },
+    {
+      "command": "delete_old_wow_layouts"
     },
     {
       "command": "pause"
