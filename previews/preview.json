@@ -1,0 +1,88 @@
+{
+  "name": "Крутящаяся фигурка",
+  "size": "x1",
+  "shop": "WoW",
+  "tag_bg": "#CFE9FF",
+  "tag_fg": "#3B82C4",
+  "library_cover": "preview.png",
+  "params": {
+    "fields": [
+      {
+        "key": "article",
+        "type": "text",
+        "label": "Артикул",
+        "width": 210,
+        "height": 24,
+        "editable": true
+      },
+      {
+        "key": "color",
+        "type": "color_group",
+        "count": 3,
+        "width": 95,
+        "height": 22
+      },
+      {
+        "key": "dimensions",
+        "type": "dimensions",
+        "count": 1,
+        "width": 170,
+        "height": 22,
+        "input_width": 40,
+        "editable": true
+      }
+    ],
+    "subtype": {
+      "mode": "none"
+    },
+    "card_layout": {
+      "mode": "vertical",
+      "card_width": 165,
+      "card_height": 280,
+      "preview_size": 140,
+      "field_height": 24,
+      "rows": [
+        [
+          "title"
+        ],
+        [
+          "fandom"
+        ],
+        [
+          "name"
+        ],
+        [
+          "color",
+          "dimensions"
+        ],
+        [
+          "article",
+          "delete"
+        ]
+      ]
+    }
+  },
+  "actions": [
+    {
+      "command": "create_stand",
+      "macro": "CreateStand",
+      "source_index": 2
+    },
+    {
+      "command": "figure_button"
+    },
+    {
+      "command": "insert_preview",
+      "macro": "Insert1"
+    },
+    {
+      "command": "pause"
+    },
+    {
+      "command": "export",
+      "macro": "ExportFromPacket"
+    }
+  ],
+  "id": "preview",
+  "cdr_url": ""
+}

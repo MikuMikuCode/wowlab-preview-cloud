@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "items": [
     {
       "id": "decor_fence_x1_wow",
@@ -47,6 +47,18 @@
       "tag_fg": "#3B82C4",
       "json": "previews/garden_topper.json",
       "cover": "",
+      "cdr_url": ""
+    },
+    {
+      "id": "preview",
+      "name": "Крутящаяся фигурка",
+      "size": "x1",
+      "shop": "WoW",
+      "library_title": "Крутящаяся фигурка x1",
+      "tag_bg": "#CFE9FF",
+      "tag_fg": "#3B82C4",
+      "json": "previews/preview.json",
+      "cover": "covers/preview.png",
       "cdr_url": ""
     }
   ],
