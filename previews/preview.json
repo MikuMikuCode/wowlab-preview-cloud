@@ -18,7 +18,7 @@
       {
         "key": "color",
         "type": "color_group",
-        "count": 3,
+        "count": 1,
         "width": 95,
         "height": 22
       },
@@ -38,7 +38,7 @@
     "card_layout": {
       "mode": "vertical",
       "card_width": 165,
-      "card_height": 430,
+      "card_height": 280,
       "preview_size": 140,
       "field_height": 24,
       "rows": [
@@ -72,14 +72,14 @@
       "command": "figure_button"
     },
     {
-      "command": "insert_info"
+      "command": "delete_old_wow_layouts"
     },
     {
       "command": "insert_preview",
       "macro": "Insert1"
     },
     {
-      "command": "delete_old_wow_layouts"
+      "command": "insert_info"
     },
     {
       "command": "pause"
