@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "items": [
     {
       "id": "decor_fence_x1_wow",
@@ -23,18 +23,6 @@
       "tag_fg": "#3B82C4",
       "json": "previews/figure_x1_wow.json",
       "cover": "covers/figure_x1_wow.png",
-      "cdr_url": ""
-    },
-    {
-      "id": "figure_x1_wow_no_cover",
-      "name": "Фигурка",
-      "size": "x1",
-      "shop": "WoW",
-      "library_title": "Фигурка x1 без обложки",
-      "tag_bg": "#CFE9FF",
-      "tag_fg": "#3B82C4",
-      "json": "previews/figure_x1_wow_no_cover.json",
-      "cover": "",
       "cdr_url": ""
     },
     {
@@ -76,8 +64,7 @@
       "id": "figures",
       "title": "Фигурки",
       "items": [
-        "figure_x1_wow",
-        "figure_x1_wow_no_cover"
+        "figure_x1_wow"
       ]
     }
   ]
