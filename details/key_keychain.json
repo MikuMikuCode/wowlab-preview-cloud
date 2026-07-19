@@ -1,0 +1,10 @@
+{
+  "id": "key_keychain",
+  "title": "Брелок-ключи",
+  "category": "Крепления",
+  "kind": "ring",
+  "params": {
+    "outer_radius_mm": 3.5,
+    "inner_radius_mm": 1.25
+  }
+}

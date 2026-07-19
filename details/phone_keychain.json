@@ -1,0 +1,10 @@
+{
+  "id": "phone_keychain",
+  "title": "Брелок-телефон",
+  "category": "Крепления",
+  "kind": "ring",
+  "params": {
+    "outer_radius_mm": 2.8,
+    "inner_radius_mm": 1.3
+  }
+}

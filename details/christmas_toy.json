@@ -1,0 +1,10 @@
+{
+  "id": "christmas_toy",
+  "title": "Ёлочная игрушка",
+  "category": "Крепления",
+  "kind": "ring",
+  "params": {
+    "outer_radius_mm": 3.5,
+    "inner_radius_mm": 2.0
+  }
+}

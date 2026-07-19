@@ -1,0 +1,11 @@
+{
+  "id": "figure_leg",
+  "title": "Ножка фигурки",
+  "category": "Подставки",
+  "kind": "rectangle",
+  "params": {
+    "width_mm": 15.0,
+    "height_mm": 2.8,
+    "bottom_radius_mm": 0.3
+  }
+}

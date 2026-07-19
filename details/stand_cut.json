@@ -1,0 +1,10 @@
+{
+  "id": "stand_cut",
+  "title": "Вырез в подставке",
+  "category": "Подставки",
+  "kind": "rectangle",
+  "params": {
+    "width_mm": 15.0,
+    "height_mm": 2.8
+  }
+}
