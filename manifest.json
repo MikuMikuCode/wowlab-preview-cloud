@@ -1,5 +1,5 @@
 {
-  "version": 12,
+  "version": 13,
   "items": [
     {
       "id": "decor_fence_x1_wow",
@@ -11,6 +11,18 @@
       "tag_fg": "#3B82C4",
       "json": "previews/decor_fence_x1_wow.json",
       "cover": "covers/decor_fence_x1_wow.png",
+      "cdr_url": ""
+    },
+    {
+      "id": "fgr26",
+      "name": "Фигурка",
+      "size": "x2 - х6",
+      "shop": "WoW",
+      "library_title": "Фигурка x2 - х6",
+      "tag_bg": "#CFE9FF",
+      "tag_fg": "#3B82C4",
+      "json": "previews/fgr26.json",
+      "cover": "covers/fgr26.png",
       "cdr_url": ""
     },
     {
