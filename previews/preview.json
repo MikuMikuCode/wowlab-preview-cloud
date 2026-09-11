@@ -1,6 +1,6 @@
 {
-  "name": "Крутящаяся фигурка",
-  "size": "x1",
+  "name": "Фигурка",
+  "size": "x2 - х6",
   "shop": "WoW",
   "tag_bg": "#CFE9FF",
   "tag_fg": "#3B82C4",
@@ -23,6 +23,20 @@
         "height": 22
       },
       {
+        "key": "fandom",
+        "type": "text",
+        "label": "Фандом",
+        "width": 240,
+        "height": 24
+      },
+      {
+        "key": "name",
+        "type": "text",
+        "label": "Имя",
+        "width": 240,
+        "height": 24
+      },
+      {
         "key": "dimensions",
         "type": "dimensions",
         "count": 1,
@@ -36,9 +50,9 @@
       "mode": "none"
     },
     "card_layout": {
-      "mode": "vertical",
-      "card_width": 165,
-      "card_height": 280,
+      "mode": "horizontal",
+      "card_width": 430,
+      "card_height": 172,
       "preview_size": 140,
       "field_height": 24,
       "rows": [
@@ -64,19 +78,18 @@
   },
   "actions": [
     {
-      "command": "create_stand",
-      "macro": "CreateStand",
-      "source_index": 2
+      "command": "figure_button"
     },
     {
-      "command": "figure_button"
+      "command": "insert_preview",
+      "macro": "Insert1"
     },
     {
       "command": "delete_old_wow_layouts"
     },
     {
-      "command": "insert_preview",
-      "macro": "Insert1"
+      "command": "macro",
+      "macro": "AlignInsert"
     },
     {
       "command": "insert_info"

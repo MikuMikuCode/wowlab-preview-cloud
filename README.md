@@ -17,7 +17,7 @@ Workflow:
 3. Run:
 
 ```powershell
-& 'C:\Users\Kutsushita\AppData\Local\Python\bin\python.exe' tools\build_preview_cloud_manifest.py
+& 'C:\Users\Kutsushita\AppData\Local\Python\bin\python.exe' !tools\build_preview_cloud_manifest.py
 ```
 
 4. Upload or commit the contents of `preview_cloud/` to the GitHub Pages repository.
@@ -44,5 +44,5 @@ One preview can be used in multiple collections because collections only store p
 Owner uploader:
 
 ```powershell
-& 'C:\Users\Kutsushita\AppData\Local\Python\bin\python.exe' tools\preview_cloud_uploader.py
+& 'C:\Users\Kutsushita\AppData\Local\Python\bin\python.exe' !tools\preview_cloud_uploader.py
 ```
