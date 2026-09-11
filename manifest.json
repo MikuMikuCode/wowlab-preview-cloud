@@ -1,5 +1,5 @@
 {
-  "version": 16,
+  "version": 17,
   "items": [
     {
       "id": "decor_fence_x1_wow",
@@ -12,18 +12,6 @@
       "json": "previews/decor_fence_x1_wow.json",
       "cover": "covers/decor_fence_x1_wow.png",
       "cdr_url": ""
-    },
-    {
-      "id": "figure_x1_wow",
-      "name": "Фигурка",
-      "size": "x1",
-      "shop": "WoW",
-      "library_title": "Фигурка x1",
-      "tag_bg": "#CFE9FF",
-      "tag_fg": "#3B82C4",
-      "json": "previews/figure_x1_wow.json",
-      "cover": "covers/figure_x1_wow.png",
-      "cdr_url": ""
     }
   ],
   "collections": [
@@ -31,16 +19,13 @@
       "id": "starter_wow",
       "title": "Стартовые превью",
       "items": [
-        "figure_x1_wow",
         "decor_fence_x1_wow"
       ]
     },
     {
       "id": "figures",
       "title": "Фигурки",
-      "items": [
-        "figure_x1_wow"
-      ]
+      "items": []
     }
   ],
   "layout_items": [],
