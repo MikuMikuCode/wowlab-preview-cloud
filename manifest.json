@@ -1,6 +1,19 @@
 {
-  "version": 18,
-  "items": [],
+  "version": 19,
+  "items": [
+    {
+      "id": "preview_001",
+      "name": "Фигурка",
+      "size": "x1",
+      "shop": "WoW",
+      "library_title": "Фигурка x1",
+      "tag_bg": "#CFE9FF",
+      "tag_fg": "#3B82C4",
+      "json": "previews/preview_001.json",
+      "cover": "covers/preview_001.png",
+      "cdr_url": ""
+    }
+  ],
   "collections": [
     {
       "id": "starter_wow",
