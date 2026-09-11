@@ -1,5 +1,5 @@
 {
-  "version": 15,
+  "version": 16,
   "items": [
     {
       "id": "decor_fence_x1_wow",
@@ -24,18 +24,6 @@
       "json": "previews/figure_x1_wow.json",
       "cover": "covers/figure_x1_wow.png",
       "cdr_url": ""
-    },
-    {
-      "id": "garden_topper_x1_wow",
-      "name": "Садовый топпер",
-      "size": "x1",
-      "shop": "WoW",
-      "library_title": "Садовый топпер x1",
-      "tag_bg": "#CFE9FF",
-      "tag_fg": "#3B82C4",
-      "json": "previews/garden_topper.json",
-      "cover": "",
-      "cdr_url": ""
     }
   ],
   "collections": [
@@ -44,8 +32,7 @@
       "title": "Стартовые превью",
       "items": [
         "figure_x1_wow",
-        "decor_fence_x1_wow",
-        "garden_topper_x1_wow"
+        "decor_fence_x1_wow"
       ]
     },
     {
