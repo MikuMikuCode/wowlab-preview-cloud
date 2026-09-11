@@ -1,5 +1,5 @@
 {
-  "version": 19,
+  "version": 20,
   "items": [
     {
       "id": "preview_001",
@@ -11,6 +11,18 @@
       "tag_fg": "#3B82C4",
       "json": "previews/preview_001.json",
       "cover": "covers/preview_001.png",
+      "cdr_url": ""
+    },
+    {
+      "id": "preview_002",
+      "name": "Фигурка",
+      "size": "x2 - x6",
+      "shop": "WoW",
+      "library_title": "Фигурка x2 - x6",
+      "tag_bg": "#CFE9FF",
+      "tag_fg": "#3B82C4",
+      "json": "previews/preview_002.json",
+      "cover": "covers/preview_002.png",
       "cdr_url": ""
     }
   ],
